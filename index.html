@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeston Correa - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1 id="logo">Jeston</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-box">
+    <div class="container">
+      <h2 id="h22">Hi, I'm <span>Jeston Correa</span></h2>
+      <p id="des">A student at NMAM institute of technology who is very passionate about coding and learning new programming languages.
+        Apart from academics some of my hobbies are playing video games, istening to music, playing football and so on.
+      </p>
+    </div>
+    <!-- Profile Image -->
+    <div class="hero-image">
+        <img src="hello.jpg" alt="Me">
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about container">
+    <h2>About Me</h2>
+    <p>
+      My goal is to grow as a proffessional in the field of software engineering and devolop more skills in problem solving.
+    </p>
+  </section>
+<!-- Contact -->
+  <section id="contact" class="contact container">
+    <h2>Contact</h2>
+    <p>Email: <a id="linkk" href="mailto:jestoncorrea3@gmail.com">jestoncorrea3@gmail.com</a></p>
+    <p>Location: Mangalore,Karnataka,India</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> Jeston Correa. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
